@@ -1,12 +1,12 @@
 jobs:
-  - name: newec1
+  - name: june9pro1
     type: manifest
     steps:
-      - GET newre1
-      - GET newre3
+      - GET june9reso1
+      - GET june9reso3
 
   - name : deployToEcs6
     type: ecsDeploy
     steps:
-      - GET newec1
-      - GET newre2
+      - GET june9pro1
+      - GET june9reso2
