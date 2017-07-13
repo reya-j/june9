@@ -4,6 +4,7 @@ language: python
 # Version number
 python:
   - 2.7
+  - 2.6
 
 build:
   ci:
